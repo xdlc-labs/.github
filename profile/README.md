@@ -2,9 +2,9 @@
   <img src="wordmark.png" width="420" alt="xdlc-labs">
 </p>
 
-xdlc-labs makes tools you run on your own machines.
+Use the coding agent you already run. Claude, Codex, Cursor, or Gemini.
 
-**[xdlc-agent](https://github.com/xdlc-labs/xdlc-agent)** is a daemon next to your repos. When GitHub Actions fails, it can open a **Fix** with the coding agent you already use — Claude, Codex, Cursor, or Gemini. Promote and Revert are optional. They stay off until you turn them on.
+**[xdlc-agent](https://github.com/xdlc-labs/xdlc-agent)** is a daemon next to your repos. When GitHub Actions fails, it can open a **Fix** with that agent. Promote and Revert stay off until you turn them on.
 
 **[Airlock](https://github.com/xdlc-labs/airlock)** is a CI gate for AI artifacts: prompts, skills, MCP servers, and models. It snapshots what changed, checks policy, and ships, blocks, or asks for approval.
 
@@ -13,7 +13,7 @@ xdlc-labs makes tools you run on your own machines.
 | [xdlc-agent](https://github.com/xdlc-labs/xdlc-agent) | `xdlc` | MIT |
 | [Airlock](https://github.com/xdlc-labs/airlock) | `airlock` | Apache-2.0 |
 
-**Docs:** [xdlc-labs.github.io/documentation](https://xdlc-labs.github.io/documentation/)
+**Site:** [xdlc.dev](https://xdlc.dev) · [xdlc-agent docs](https://xdlc.dev/agent/docs) · [Airlock docs](https://xdlc.dev/airlock/docs)
 
 ## Try it
 
