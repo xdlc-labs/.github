@@ -1,20 +1,22 @@
 # xdlc-labs
 
-**Self-hosted agentic SDLC.** CI Fix when builds break. Airlock when AI artifacts change. You host it; nothing phones home.
+xdlc-labs makes tools you run on your own machines. Nothing phones home.
 
-## Products
+**[xdlc-agent](https://github.com/xdlc-labs/xdlc-agent)** is a daemon next to your repos. When GitHub Actions fails, it can open a **Fix** with the coding agent you already use — Claude, Codex, Cursor, or Gemini. Promote and Revert are optional. They stay off until you turn them on.
 
-| Repo | What it is |
-|------|------------|
-| **[xdlc-agent](https://github.com/xdlc-labs/xdlc-agent)** | Daemon next to your repos. Red CI becomes a **Fix** with `claude`, `codex`, `cursor`, or `gemini`. Optional Promote / Revert. MIT. |
-| **[airlock](https://github.com/xdlc-labs/airlock)** | CI release gate for prompts, skills, MCP, and models. Snapshot, diff, policy, ship-or-block. Apache-2.0. |
+**[Airlock](https://github.com/xdlc-labs/airlock)** is a CI gate for AI artifacts: prompts, skills, MCP servers, and models. It snapshots what changed, checks policy, and ships, blocks, or asks for approval.
+
+| Product | CLI | License |
+|---------|-----|---------|
+| [xdlc-agent](https://github.com/xdlc-labs/xdlc-agent) | `xdlc` | MIT |
+| [Airlock](https://github.com/xdlc-labs/airlock) | `airlock` | Apache-2.0 |
 
 **Docs:** [xdlc-labs.github.io/documentation](https://xdlc-labs.github.io/documentation/)
 
-## Satellites
+## Also in this org
 
 | Repo | Role |
 |------|------|
-| [documentation](https://github.com/xdlc-labs/documentation) | Hosted guides (GitHub Pages; Mintlify-shaped) |
-| [example-service](https://github.com/xdlc-labs/example-service) | Public battleground HTTP service for xdlc-agent |
-| [fixtures](https://github.com/xdlc-labs/fixtures) | Graded planted-break PRs |
+| [documentation](https://github.com/xdlc-labs/documentation) | Hosted guides (GitHub Pages) |
+| [example-service](https://github.com/xdlc-labs/example-service) | Public demo HTTP service (`/healthz`, `/metrics`) |
+| [fixtures](https://github.com/xdlc-labs/fixtures) | Scratch pull requests with planted breaks |
