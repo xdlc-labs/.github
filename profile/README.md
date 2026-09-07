@@ -2,7 +2,7 @@
   <img src="wordmark.png" width="420" alt="xdlc-labs">
 </p>
 
-xdlc-labs makes tools you run on your own machines. Nothing phones home.
+xdlc-labs makes tools you run on your own machines.
 
 **[xdlc-agent](https://github.com/xdlc-labs/xdlc-agent)** is a daemon next to your repos. When GitHub Actions fails, it can open a **Fix** with the coding agent you already use — Claude, Codex, Cursor, or Gemini. Promote and Revert are optional. They stay off until you turn them on.
 
