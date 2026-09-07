@@ -1,4 +1,6 @@
-# xdlc-labs
+<p align="center">
+  <img src="wordmark.png" width="420" alt="xdlc-labs">
+</p>
 
 xdlc-labs makes tools you run on your own machines. Nothing phones home.
 
