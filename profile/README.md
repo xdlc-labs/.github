@@ -18,5 +18,3 @@
 | [documentation](https://github.com/xdlc-labs/documentation) | Hosted guides (GitHub Pages; Mintlify-shaped) |
 | [example-service](https://github.com/xdlc-labs/example-service) | Public battleground HTTP service for xdlc-agent |
 | [fixtures](https://github.com/xdlc-labs/fixtures) | Graded planted-break PRs |
-
-Enterprise features are private.
