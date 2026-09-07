@@ -13,10 +13,9 @@ xdlc-labs makes tools you run on your own machines. Nothing phones home.
 
 **Docs:** [xdlc-labs.github.io/documentation](https://xdlc-labs.github.io/documentation/)
 
-## Also in this org
+## Try it
 
-| Repo | Role |
-|------|------|
-| [documentation](https://github.com/xdlc-labs/documentation) | Hosted guides (GitHub Pages) |
-| [example-service](https://github.com/xdlc-labs/example-service) | Public demo HTTP service (`/healthz`, `/metrics`) |
-| [fixtures](https://github.com/xdlc-labs/fixtures) | Scratch pull requests with planted breaks |
+| Repo | What you do |
+|------|-------------|
+| [example-service](https://github.com/xdlc-labs/example-service) | Point xdlc-agent at this small HTTP app (`/healthz`, `/metrics`) |
+| [fixtures](https://github.com/xdlc-labs/fixtures) | Open a sample PR that fails CI, then watch a Fix |
